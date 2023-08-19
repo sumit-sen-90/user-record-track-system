@@ -6,9 +6,9 @@ function DeleteConfirmationModal({ confirmDelete, cancelDelete }) {
     <div>
       <Modal show={true} animation={false}>
         <Modal.Header>
-          <Modal.Title>Modal heading</Modal.Title>
+          <Modal.Title>Confirm Delete</Modal.Title>
         </Modal.Header>
-        <Modal.Body>Woohoo, you are reading this text in a modal!</Modal.Body>
+        <Modal.Body>Are you sure you want to delete this user?</Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={cancelDelete}>
             Cancel
